@@ -1,0 +1,35 @@
+Html Webpack Plugin:
+<pre>
+  Error: C:\TestProjects\compline-webpack-test/node_modules/lodash/lodash.js?:17101
+  /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/b  uildin/global.js */ "./node_modules/webpack/buildin/global.js"), __webpack_req  uire__(/*! ./../webpack/buildin/module.js */ "./node_modules/webpack/buildin/m  odule.js")(module)))
+                                                                                                                                                                                                                                                            ^
+  TypeError: __webpack_require__(...) is not a function
+  
+  - lodash.js?:17101 eval
+    [.]/[lodash]/lodash.js?:17101:245
+  
+  - index.ejs:108 Object../node_modules/lodash/lodash.js
+    C:/TestProjects/compline-webpack-test/modules/main/index.ejs:108:1
+  
+  - index.ejs:21 __webpack_require__
+    C:/TestProjects/compline-webpack-test/modules/main/index.ejs:21:30
+  
+  - loader.js:1 eval
+    [index.ejs?.]/[html-webpack-plugin]/lib/loader.js:1:9
+  
+  - index.ejs:97 Object../node_modules/html-webpack-plugin/lib/loader.js!./modul    es/main/index.ejs
+    C:/TestProjects/compline-webpack-test/modules/main/index.ejs:97:1
+  
+  - index.ejs:21 __webpack_require__
+    C:/TestProjects/compline-webpack-test/modules/main/index.ejs:21:30
+  
+  - index.ejs:85 
+    C:/TestProjects/compline-webpack-test/modules/main/index.ejs:85:18
+  
+  - index.ejs:88 
+    C:/TestProjects/compline-webpack-test/modules/main/index.ejs:88:10
+  
+  - index.js:247 HtmlWebpackPlugin.evaluateCompilationResult
+    [compline-webpack-test]/[html-webpack-plugin]/index.js:247:28
+  
+</pre>

@@ -1,0 +1,26 @@
+{
+	"name": "cl-wp-test",
+	"version": "1.0.0",
+	"private": true,
+	"description": "WebPack Multi-Entry & Legacy JS Configuration Test",
+	"main": "index.js",
+	"scripts": {
+		"webpack": "webpack",
+		"test": "echo \"Error:no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^10.12.2",
+		"clean-webpack-plugin": "^0.1.19",
+		"html-webpack-plugin": "^3.2.0",
+		"script-loader": "^0.7.2",
+		"ts-loader": "^5.3.0",
+		"typescript": "^3.1.6",
+		"webpack": "^4.23.1",
+		"webpack-cli": "^3.1.2"
+	},
+	"dependencies": {
+		"lodash": "^4.17.11"
+	}
+}
