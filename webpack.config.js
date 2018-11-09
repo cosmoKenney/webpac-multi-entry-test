@@ -42,7 +42,8 @@ var webpackConfig = {
 		rules: [
 			{
 				test: /\.js$/,
-				loader: 'script-loader'
+				loader: 'script-loader',
+				exclude: /node_modules/
 			},
 			{
 				test: /\.ts$/,
@@ -60,7 +61,7 @@ var webpackConfig = {
 			inject: 'body',
 			chunksSortMode: "dependency",
 			hash: true
-		} )/*,
+		} ),
 		new HtmlWebpackPlugin( {
 			alwaysWriteToDisk: true,
 			filename: "module-one.html",
@@ -68,7 +69,7 @@ var webpackConfig = {
 			inject: 'body',
 			chunksSortMode: "dependency",
 			hash: true
-		} )*/
+		} )
 	]
 };
 module.exports = webpackConfig;
